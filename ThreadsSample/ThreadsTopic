@@ -1,0 +1,12 @@
+For running large( may run for long time) program
+Threads will be created using two types:
+    extends Thread
+    implement Runnable
+    implements Callable<Datatype> return the value after completion of thread
+
+Each java class will have one Main thread.
+new thread will be created on top of the main thread.
+
+extends Thread => extends the class Thread. Multiple inheritance will not be available |
+                    so if class has another parent, we cannot extend the thread.
+implement Runnable => allows us for multiple interface
